@@ -29,11 +29,16 @@ img {
     color: #fff;
 }
 
+.text-red {
+    color: #FF0000;
+}
+
 /* LAYOUT */
 .container{
     width: 80%;
     max-width: 1000px;
     margin: 0 auto;
+    font-family: sans-serif;
 }
 
 .row {
@@ -77,8 +82,7 @@ img {
 .discount {
     position: absolute;
     left: 0;
-    bottom: 20px;
-    font-family: sans-serif;
+    bottom: 70px;
     font-weight: 700;
     font-size: 0.6rem;
     padding: 6px;
@@ -87,11 +91,33 @@ img {
 
 .ecofriendly {
     position: absolute;
-    bottom: 20px;
+    bottom: 70px;
     left: 38px;
-    font-family: sans-serif;
     font-weight: 700;
     font-size: 0.6rem;
     padding: 6px;
     
+}
+
+.favorite {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.brand {
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+
+.price-before {
+    text-decoration: line-through;
+    font-size: 0.8rem
+}
+
+.price-after {
+    font-weight: 700;
+    font-size: 0.8rem;
 }
