@@ -11,6 +11,14 @@ img {
 
 /* UTILITY */
 
+.flex {
+    display: flex;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
 .mb-20 {
     margin-bottom: 20px;
 }
@@ -36,6 +44,17 @@ img {
 .text-red {
     color: #FF0000;
 }
+
+/* HEADER */
+
+header {
+    background-color: #FF6900;
+    height: 80px;
+    /* debug */
+
+}
+
+
 
 /* LAYOUT */
 .container{
@@ -133,4 +152,15 @@ img {
 .price-after {
     font-weight: 700;
     font-size: 0.8rem;
+}
+
+
+/* FOOTER */
+
+footer {
+    
+    /* debug */
+    background-color: black;
+    height: 80px;
+    color: white
 }
