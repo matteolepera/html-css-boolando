@@ -1,0 +1,21 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.container{
+    width: 80%;
+    max-width: 2000px;
+    margin: 0 auto;
+
+    /* debug */
+    background-color: orange;
+    min-height: 600px;
+}
