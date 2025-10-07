@@ -15,8 +15,21 @@ img {
     margin-bottom: 20px;
 }
 
+.bg-red {
+    background-color: #FF0000;
+}
 
+.bg-green {
+    background-color: #008001;
+}
 
+/* TIPOGRAPHY */
+
+.text-white {
+    color: #fff;
+}
+
+/* LAYOUT */
 .container{
     width: 80%;
     max-width: 1000px;
@@ -33,17 +46,16 @@ img {
 
 .col-30 {
     width: 30%;
-
-    /* debug */
-    background-color: red;
-    min-height: 300px;
-    border: 1px solid black;
 }
 
 
 /* MAIN */
 
 /* Card */
+
+.card {
+    position: relative;
+}
 
 .disp-block {
     display: block;
@@ -59,4 +71,27 @@ img {
 
 .disp-change:hover .disp-none {
     display: block;
+}
+
+
+.discount {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 0.6rem;
+    padding: 6px;
+    
+}
+
+.ecofriendly {
+    position: absolute;
+    bottom: 20px;
+    left: 38px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 0.6rem;
+    padding: 6px;
+    
 }
