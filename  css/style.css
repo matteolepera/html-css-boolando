@@ -9,13 +9,54 @@ img {
     max-width: 100%;
 }
 
+/* UTILITY */
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+
 
 .container{
     width: 80%;
-    max-width: 2000px;
+    max-width: 1000px;
     margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+.col-30 {
+    width: 30%;
 
     /* debug */
-    background-color: orange;
-    min-height: 600px;
+    background-color: red;
+    min-height: 300px;
+    border: 1px solid black;
+}
+
+
+/* MAIN */
+
+/* Card */
+
+.disp-block {
+    display: block;
+}
+
+.disp-none {
+    display: none;
+}
+
+.disp-change:hover .disp-block {
+    display: none;
+}
+
+.disp-change:hover .disp-none {
+    display: block;
 }
